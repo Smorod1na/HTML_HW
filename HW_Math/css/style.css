@@ -1,0 +1,14 @@
+body{
+    width: 1000px;
+}
+h1{
+    text-align: center;
+}
+.one
+{
+    background-color: bisque;
+    text-align: center;
+}
+span{
+    color: red;
+}
