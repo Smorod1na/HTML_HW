@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'LIBRARY 3 AM';
+    src: url('Fonts1/LIBRARY3AM.woff2') format('woff2'),
+        url('Fonts1/LIBRARY3AM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FrakturOmniv1';
+    src: url('Fonts2/FrakturOmniv1.woff2') format('woff2'),
+        url('Fonts2/FrakturOmniv1.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LIBRARY 3 AM soft';
+    src: url('Fonts/LIBRARY3AMsoft.woff2') format('woff2'),
+        url('Fonts/LIBRARY3AMsoft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Perfograma';
+    src: url('Fonts3/Perfograma.woff2') format('woff2'),
+        url('Fonts3/Perfograma.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    color: brown;
+    text-align: center;
+    font-size: 35px;
+    font-family:  'LIBRARY 3 AM';
+}
+h2{
+    text-align: center;
+    color: blue;
+    font-family: 'LIBRARY 3 AM soft';
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: blueviolet;
+    font-size: 25px;
+}
+
+.first{
+    text-align: center;
+font-family: 'FrakturOmniv1';
+}
+.second{
+    letter-spacing: 0.75px;
+    text-emphasis: none;
+    text-align: right;
+    font-weight: bold;
+}
+.three
+{
+    line-height: 2;
+    text-indent: 3%;
+    text-align: justify;
+}
+.four{
+    border: 3px solid red;
+padding: 20px;
+
+    font-style: italic;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    width: 20%;
+    color: saddlebrown;
+}
+.ulfirst{
+    padding-left: 50px;
+}
+.ulfirst dt{
+    letter-spacing: 2px;
+text-align: justify;
+text-decoration: underline;
+    font-family: 'Perfograma'; 
+}
+
+
+
