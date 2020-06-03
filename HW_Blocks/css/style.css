@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 700px;
+}
+div{
+    border:1px solid black;
+}
+.A {
+    height: 700px;
+    background-color: red;
+}
+
+.B {
+    background-color: orange;
+    margin: 20px 2% 20px 2%;
+    height: 660px;
+    width: 13%;
+    float: left;
+}
+
+.C {
+    background-color: yellow;
+    float: right;
+    margin: 20px 2% 20px 2%;
+    margin-left: 0;
+    height: 660px;
+    width: 80%;
+}
+
+.D {
+    margin: 20px 2% 20px 2%;
+    height: 193px;
+    background-color: green;
+    /* padding: 20px; */
+}
+
+.E {
+    margin: 15px 0 15px 2%;
+    padding: 10px 1% 10px 1%;
+    height: 143px;
+    width: 25%;
+    background-color: blue;
+    float: left;
+    /* margin-right: 0; */
+}
+
+.F {
+    margin: 15px 2% 15px 2%;
+    padding: 10px 1% 10px 1%;
+    height: 143px;
+    width: 63%;
+    background-color: blueviolet;
+    float: right;
+}
+.H{
+    padding: 10px 1% 0px 1%;
+    height: 130px;
+    width: 46%;
+    background-color: grey;
+    float: left;
+}
+.G{
+    padding: 10px 1% 10px 1%;
+    height: 120px;
+    width: 46%;
+    background-color: purple;
+    float: right;
+}
+.G1{
+    padding: 10px 1% 10px 1%;
+    height: 120px;
+    width: 98%;
+    background-color: purple;
+}
+.I{
+    width: 98%;
+    background-color: white;
+    height: 53px;
+    margin-bottom: 10px;
+}
