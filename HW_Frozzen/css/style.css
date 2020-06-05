@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+}
+
+.main {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #eae7e8;
+    height: 120px;
+    display: block;
+    line-height: 120px;
+}
+
+.firstUl {
+    list-style-type: none;
+    margin-right: 150px;
+}
+
+.firstUl li:hover{
+    color:#cb3362;
+}
+.firstUl li {
+
+    float: left;
+    color: #7a6666;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 40px;
+}
+
+.divImg {
+    float: left;
+    margin: 0 0 40px 190px;
+    height: 40px;
+}
+
+.divUl {
+    float: right;
+}
+
+.iceCream {
+    height: 600px;
+    position: relative;
+}
+
+.ice1 {
+    z-index: 4;
+    top: 50px;
+    left: 403px;
+}
+
+.ice2 {
+    top: 100px;
+    z-index: 3;
+    left: 653px;
+}
+
+.ice3 {
+    top: 50px;
+    z-index: 3;
+}
+
+.redDiv {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    left: 820px;
+    top: 400px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ca0d6f;
+    opacity: 0.8;
+}
+
+.iceCream img {
+    position: absolute;
+}
+
+.bcimg {
+    z-index: -1;
+    top: -400px;
+}
+
+.redDiv a {
+    color: #ffffff;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.yellowDiv {
+    z-index: 4;
+    left: 810px;
+    top: 410px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #c8c10d;
+}
+
+.leaf1 {
+    top: 30px;
+    left: 470px;
+
+}
+
+.leaf2 {
+    top: 50px;
+    left: 380px;
+}
+
+.leaf3 {
+    top: 220px;
+    left: 70px;
+}
+
+.leaf4 {
+    left: 100px;
+    top: 80px;
+}
+
+.leaf5 {
+    left: 800px;
+}
+
+.newDiv {
+    background-color: #eae7e8;
+    height: 260px;
+}
+
+
+
+.newDiv2 {
+    height: 160px;
+    background-color: #c8c10d;
+}
+
+
+.divtext {
+    margin: 50px 0px 70px 150px;
+    width: 45%;
+    float: left;
+}
+
+.divtext h4 {
+    color: #4c4b45;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Roboto;
+}
+
+.divtext h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #e32a62;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divtext p {
+    color: #7a6666;
+}
+
+.dimg {
+    margin-top: 52px;
+    float: right;
+    margin-right: 200px;
+}
+
+.icon {
+    display: inline-block;
+    width: 68px;
+    height: 40px;
+    background: url(../img/css_sprites\ \(1\).png);
+    background-position: -10px -10px;
+}
+
+.one {
+    width: 27px;
+    height: 40px;
+    background-position: -10px -70px;
+}
+
+.two {
+    width: 25px;
+    height: 41px;
+    background-position: -158px -10px;
+
+}
+
+.three {
+    width: 40px;
+    height: 36px;
+    background-position: -98px -10px;
+}
+
+.secondUl {
+    list-style-type: none;
+}
+
+.secondUl li {
+    margin: 40px 100px 40px 100px;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.secondUl li {
+    width: 90px;
+}
+.threeUl{
+    list-style-type: none;
+    
+}
+.threeUl li i{
+width: 60px;
+height: 60px;
+}
+.threeUl li{
+    display: block;
+    float: left;
+    color: white;
+    width:36px;
+    height: 36px;
+    margin: 0 auto;
+}
+.newDiv3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 200px;
+    background-color: #cb3362;
+    flex-direction: column;
+
+}
+.newDiv3 a{
+color: white;
+}
