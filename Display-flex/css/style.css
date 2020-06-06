@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+}
+
+.main {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul li {
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.dark {
+    background-color: rgb(5, 5, 41);
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.darkblue {
+    background-color: darkblue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: rgb(194, 194, 13);
+}
+
+.gray {
+    background-color: gray;
+}
+
+@media(max-width: 630px) {
+    ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    div {
+        min-width: 200px;
+        max-width: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dark {
+        padding: 10px 40px;
+    }
+
+    .tomato {
+        padding: 10px 40px;
+    }
+
+    .blue {
+        padding: 30px 40px;
+    }
+
+    .darkblue {
+        padding: 30px 40px;
+    }
+
+    .green {
+        padding: 20px 40px;
+    }
+
+    .yellow {
+        padding: 20px 40px;
+    }
+
+    .gray {
+        padding: 20px 40px;
+    }
+}
+
+@media (min-width: 640px) {
+    ul {
+        list-style-type: none;
+        padding: 0;
+        min-width: 500px;
+        max-width: 600px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dark {
+        width: 120px;
+        padding: 10px 20px;
+        order: 1;
+    }
+
+    .tomato {
+        width: 280px;
+        padding: 10px 80px;
+        order: 2;
+    }
+
+    .blue {
+        width: 596px;
+        padding: 70px 88px;
+        order: 3;
+    }
+
+    .darkblue {
+        width: 160px;
+        padding: 70px 70px;
+        margin-right: 150px;
+        order: 4;
+    }
+
+    .gray {
+        height: 20px;
+        padding: 30px 45px;
+        order: 5;
+    }
+
+    .yellow {
+        order: 7;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .green {
+        order: 6;
+        height: 20px;
+        padding: 30px 45px;
+    }
+
+}
