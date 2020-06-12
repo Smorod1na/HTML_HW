@@ -1,0 +1,216 @@
+@import "variables";
+@import "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
+
+* {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    @include Flex(space-around,none,$bgColorHeader,$headerHeight);
+    position: fixed;
+}
+
+.clas {
+    height: 100%;
+    @include Flex(none,center,none,none);
+
+    ul {
+        li {
+            a {
+                color: #7a6666;
+                font-family: 'Lato', sans-serif;
+                font-size: 15px;
+            }
+
+            a:hover {
+                color: $colorNumber1
+            }
+        }
+    }
+}
+
+.section1 {
+    margin-bottom: 120px;
+@include Flex(center,none,none,$section1Height);
+    .iceCream {
+        z-index: -1;
+        position: relative;
+        @include Flex(center,none,none,none);
+
+        img {
+            position: absolute;
+        }
+
+        .img1 {
+            @include Position(none,none,none,-229px,-2);
+        }
+
+        .img2 {
+            @include Position(210px,none,-70px,none,none);
+            // right: -70px;
+            // top: 210px;
+        }
+
+        .img3 {
+            @include Position(210px,none,none,none,2);
+        }
+
+        .img4 {
+            @include Position(230px, 40px,none,none,1);
+        }
+
+        .img5 {
+            @include Position(175px, -140px,none,none,-2);
+
+        }
+
+        .img6 {
+            @include Position(230px, none,110px,none,-1);
+        }
+
+        .img7 {
+            @include Position(422px, none,360px,none,-1);
+
+        }
+
+        .img8 {
+            @include Position(250px, none,270px,none,-1);
+        }
+
+        .img9 {
+            @include Position(140px, 170px,none,none,none);
+        }
+
+        .redDiv {
+@include Flex(center,center,$colorNumber1,150px);
+            position: absolute;
+            @include Position(599px, 175px,none,none,5);
+            width: 150px;
+            border-radius: 50%;
+            opacity: 0.8;
+
+            a {
+                color: #ffffff;
+                font-family: Quicksand;
+                font-size: 24px;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-align: center;
+
+            }
+        }
+
+        .yellowDiv {
+            @include Position(603px, 159px,none,none,4);
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #c8c10d;
+        }
+    }
+
+}
+
+.section2 {
+    height: 260px;
+    background-color: #eae7e8;
+    @include Flex($letCenter,$letCenter,$colorNumber2,$section2Height);
+
+
+    .divProduct {
+        width: 30%;
+        margin-right: 50px;
+
+        h5 {
+            color: #7a6666;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        h4 {
+            color:$colorNumber1;
+            font-family: 'Magra', sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #7a6666;
+            font-family: "Roboto - Regular";
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    .divCream {
+        margin-top: 52px;
+    }
+}
+
+.section3 {
+  @include Flex($letCenter,$letCenter,$colorNumber3,$section3Height);
+
+    div {
+        margin: 0 120px;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .im1 {
+        width: 40px;
+        height: 36px;
+    }
+
+    .im2 {
+        width: 68px;
+        height: 40px;
+    }
+
+    .im3 {
+        width: 27px;
+        height: 40px;
+    }
+
+    .im4 {
+        width: 25px;
+        height: 41px;
+    }
+}
+
+.footer {
+    @include Flex($letCenter,$letCenter,$colorNumber1,$footerHeight);
+    flex-direction: column;
+    a{
+        color: #ffffff;
+        font-family: "Roboto - Regular";
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.6px;
+    }
+    .divIcon{
+        i{
+            color: white;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

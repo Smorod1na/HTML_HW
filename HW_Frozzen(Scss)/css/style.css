@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Magra&display=swap");
+* {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  background-color: #b0a3a9;
+  justify-content: space-around;
+  height: 120px;
+  align-items: none;
+  position: fixed;
+}
+
+.clas {
+  height: 100%;
+  display: flex;
+  background-color: none;
+  justify-content: none;
+  height: none;
+  align-items: center;
+}
+.clas ul li a {
+  color: #7a6666;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+.clas ul li a:hover {
+  color: #cb3362;
+}
+
+.section1 {
+  margin-bottom: 120px;
+  display: flex;
+  background-color: none;
+  justify-content: center;
+  height: 660px;
+  align-items: none;
+}
+.section1 .iceCream {
+  z-index: -1;
+  position: relative;
+  display: flex;
+  background-color: none;
+  justify-content: center;
+  height: none;
+  align-items: none;
+}
+.section1 .iceCream img {
+  position: absolute;
+}
+.section1 .iceCream .img1 {
+  top: none;
+  left: none;
+  z-index: -2;
+  right: none;
+  bottom: -229px;
+}
+.section1 .iceCream .img2 {
+  top: 210px;
+  left: none;
+  z-index: none;
+  right: -70px;
+  bottom: none;
+}
+.section1 .iceCream .img3 {
+  top: 210px;
+  left: none;
+  z-index: 2;
+  right: none;
+  bottom: none;
+}
+.section1 .iceCream .img4 {
+  top: 230px;
+  left: 40px;
+  z-index: 1;
+  right: none;
+  bottom: none;
+}
+.section1 .iceCream .img5 {
+  top: 175px;
+  left: -140px;
+  z-index: -2;
+  right: none;
+  bottom: none;
+}
+.section1 .iceCream .img6 {
+  top: 230px;
+  left: none;
+  z-index: -1;
+  right: 110px;
+  bottom: none;
+}
+.section1 .iceCream .img7 {
+  top: 422px;
+  left: none;
+  z-index: -1;
+  right: 360px;
+  bottom: none;
+}
+.section1 .iceCream .img8 {
+  top: 250px;
+  left: none;
+  z-index: -1;
+  right: 270px;
+  bottom: none;
+}
+.section1 .iceCream .img9 {
+  top: 140px;
+  left: 170px;
+  z-index: none;
+  right: none;
+  bottom: none;
+}
+.section1 .iceCream .redDiv {
+  display: flex;
+  background-color: #cb3362;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  position: absolute;
+  top: 599px;
+  left: 175px;
+  z-index: 5;
+  right: none;
+  bottom: none;
+  width: 150px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.section1 .iceCream .redDiv a {
+  color: #ffffff;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section1 .iceCream .yellowDiv {
+  top: 603px;
+  left: 159px;
+  z-index: 4;
+  right: none;
+  bottom: none;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #c8c10d;
+}
+
+.section2 {
+  height: 260px;
+  background-color: #eae7e8;
+  display: flex;
+  background-color: #eae7e8;
+  justify-content: center;
+  height: 260px;
+  align-items: center;
+}
+.section2 .divProduct {
+  width: 30%;
+  margin-right: 50px;
+}
+.section2 .divProduct h5 {
+  color: #7a6666;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+}
+.section2 .divProduct h4 {
+  color: #cb3362;
+  font-family: "Magra", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.section2 .divProduct p {
+  color: #7a6666;
+  font-family: "Roboto - Regular";
+  font-size: 14px;
+  font-weight: 400;
+}
+.section2 .divCream {
+  margin-top: 52px;
+}
+
+.section3 {
+  display: flex;
+  background-color: #c8c10d;
+  justify-content: center;
+  height: 160px;
+  align-items: center;
+}
+.section3 div {
+  margin: 0 120px;
+}
+.section3 img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.section3 h4 {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.section3 .im1 {
+  width: 40px;
+  height: 36px;
+}
+.section3 .im2 {
+  width: 68px;
+  height: 40px;
+}
+.section3 .im3 {
+  width: 27px;
+  height: 40px;
+}
+.section3 .im4 {
+  width: 25px;
+  height: 41px;
+}
+
+.footer {
+  display: flex;
+  background-color: #cb3362;
+  justify-content: center;
+  height: 201px;
+  align-items: center;
+  flex-direction: column;
+}
+.footer a {
+  color: #ffffff;
+  font-family: "Roboto - Regular";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+}
+.footer .divIcon i {
+  color: white;
+  width: 30px;
+  height: 30px;
+}

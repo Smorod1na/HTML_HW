@@ -1,0 +1,14 @@
+@mixin Flex($justcontent,$alitem:center,$color:none,$containerHeight:none){
+    display: flex;
+    background-color: $color;
+    justify-content: $justcontent;
+    height: $containerHeight;
+    align-items: $alitem;
+}
+@mixin Position($top,$left,$right,$bot,$index) {
+    top: $top;
+    left: $left;
+    z-index: $index;
+    right: $right;
+    bottom: $bot;
+}
