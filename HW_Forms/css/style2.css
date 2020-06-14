@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+}
+
+.header {
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+.header h1 {
+  font-family: monospace;
+  color: white;
+}
+.header h4 {
+  font-family: monospace;
+  color: white;
+}
+
+.section {
+  background-color: #ececeb;
+  padding: 30px 40px;
+  height: 840px;
+}
+.section label {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.location {
+  margin: 10px 15px 10px 0;
+  width: 20%;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid grey;
+}
+.location button {
+  border: none;
+  background-color: white;
+}
+.location button i {
+  color: grey;
+}
+.location input[type=search] {
+  padding: 10px 0 10px 15px;
+  color: grey;
+  width: 83%;
+  border: none;
+}
+.location input[type=button] {
+  border: none;
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  height: 39px;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+}
+
+.test {
+  display: block;
+}
+
+.left {
+  float: left;
+  width: 25%;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 2.5% 2%;
+}
+.left h3 {
+  font-family: sans-serif;
+  color: black;
+  padding: 0px 0 25px;
+}
+.left h6 {
+  color: blue;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.left input[type=checkbox] {
+  margin: 5px 0;
+}
+
+.test2 {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.min,
+.max {
+  float: left;
+  width: 40%;
+}
+.min input[type=text],
+.max input[type=text] {
+  width: 40%;
+}
+
+.right {
+  float: right;
+  width: 65%;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 2.5% 0;
+}
+.right h3 {
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+
+.lastDiv {
+  border-bottom: 1px solid grey;
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.lastDiv div {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.lastDiv div input[type=button] {
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  background-color: darkblue;
+  color: white;
+  height: 39px;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 80px;
+}
+.lastDiv h4 {
+  text-align: center;
+}
+.lastDiv p {
+  text-align: center;
+  color: gray;
+}
+.lastDiv a {
+  color: blue;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.aDiv {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 15px 15px;
+  background-color: #ececeb;
+  display: flex;
+}
+.aDiv h6 {
+  text-align: center;
+  padding-left: 15px;
+  width: 15%;
+  color: blue;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
