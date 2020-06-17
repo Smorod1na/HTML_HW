@@ -1,0 +1,684 @@
+@import "variable";
+@import "mixin";
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 101px;
+    background-color: $colorBlue;
+    // position: absolute;
+}
+
+.logotip {
+    @include textStyle($whiteColor, $fontCourgette, 39px, 400);
+
+    span {
+        color: yellow;
+        font-family: fantasy;
+
+    }
+
+    h6 {
+        @include textStyle($whiteColor, $fontOpenSans, 13px, 400);
+
+    }
+}
+
+.navflex {
+    display: flex;
+    align-items: center;
+
+}
+
+.iconCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: WHITE;
+    width: 30px;
+    height: 30px;
+
+    i {
+        transform: rotate(90deg);
+        ;
+    }
+}
+
+.Place {
+    background-color: $colorDarkBlue;
+    width: 280px;
+    height: 50px;
+}
+
+.Continue {
+    margin-top: 25px;
+    width: 201px;
+    height: 50px;
+    background-color: $colorDarkBlue;
+}
+
+.SignIn,
+.Order {
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    // margin: 20px;
+}
+
+.SignIn {
+    background-color: $colorDarkBlue;
+}
+
+.Order {
+    background-color: $colorOrange;
+}
+
+.headerUl {
+    display: flex;
+    align-items: center;
+
+    li {
+        margin-right: 20px;
+
+        a {
+            text-transform: uppercase;
+            color: white;
+        }
+    }
+}
+
+
+.section1 {
+    height: 631px;
+    background-image: url(../img/fon1.png);
+    padding-top: 41px;
+
+}
+
+.fon1 {
+    background-image: url(../img/bcfon1.png);
+    height: 590px;
+
+    span {
+        color: $colorBlue;
+    }
+
+    p {
+
+        @include textStyle(#656a70, 0, 20px, 400);
+        width: 545px;
+        letter-spacing: 0.7px;
+        padding-top: 30px;
+    }
+
+    button:not(.Continue) {
+        background-color: $colorOrange;
+        width: 220px;
+        height: 50px;
+        margin-bottom: 70px;
+    }
+
+    h1 {
+        padding-top: 100px;
+        @include textStyle(black, 0, 47px, bold);
+        padding-bottom: 30px;
+    }
+
+}
+
+.line1 {
+    height: 1px;
+    width: 545px;
+    background-color: #1e2021;
+}
+
+.line2 {
+    height: 3px;
+    width: 50px;
+    background-color: $colorOrange;
+}
+
+.my-container1 {
+    display: flex;
+}
+
+.girl {
+    position: absolute;
+
+    img {
+        position: relative;
+        left: 765px;
+        top: 55px;
+        z-index: 100;
+    }
+}
+
+.my-container2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    // top: 50px;
+    height: 136px;
+    background-color: $colorBlue;
+
+    div:not(.pages) {
+        width: 17%;
+        margin: 15px;
+
+        a {
+            @include textStyle(white, 0, 13px, 500);
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+
+    article {
+        display: block;
+        height: 50px;
+        margin: 23px;
+
+        a {
+            @include textStyle(white, 0, 13px, 500);
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        margin-bottom: 40px;
+    }
+}
+
+.pages {
+    width: 182px;
+    height: 38px;
+    border: 1px solid #d8dadb;
+    background-color: #f6f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 3px;
+    align-items: center;
+
+    input[type="text"] {
+        background-color: #f6f9f9;
+        border: 0;
+        margin: 0;
+        width: 90px;
+        // border: 1px wavy white;
+        margin-left: 10px;
+    }
+
+    .spanOne {
+        font-weight: bold;
+        border-right: 1px solid rgba(167, 166, 166, 0.5);
+        padding-left: 5px;
+    }
+
+    .spanTwo {
+        padding-left: 18px;
+        border-left: 1px solid rgba(167, 166, 166, 0.5);
+    }
+
+    .spanOne,
+    .spanTwo {
+        display: flex;
+        align-items: center;
+        // justify-content: ;
+        line-height: 38px;
+        background-color: #f6f9f9;
+    }
+}
+
+.welcome {
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 515px;
+    height: 415px;
+    background-color: #e6f7fe;
+    padding: 65px 108px 0 123px;
+}
+
+.welcome1 {
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 515px;
+    height: 415px;
+}
+
+.my-container {
+    width: 100%;
+    justify-content: center;
+
+    display: flex;
+
+    a {
+        @include textStyle($colorBlue, 0, 15, 400)
+    }
+
+    h2 {
+        @include textStyle(black, 0, 35, 400);
+        margin: 20px 0;
+    }
+
+    p {
+        @include textStyle($colorGrey, 0, 22, 400)
+    }
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 700px;
+    padding: 20px 180px;
+    background-color: $colorBlue;
+    background-image: url(../img/fon2.png);
+
+    a {
+        text-align: center;
+        @include textStyle(white, 0, 15px, 400);
+    }
+
+    h3 {
+        text-align: center;
+        @include textStyle(white, 0, 33px, 400);
+        margin: 20px 0;
+    }
+
+    h6 {
+        @include textStyle(black, 0, 17px, 500);
+        text-align: center;
+
+    }
+
+    p {
+        @include textStyle($colorGrey, 0, 14px, 400);
+        text-align: center;
+
+    }
+
+    div:not(.threeDiv) {
+        margin: 40px;
+        width: 33%;
+        height: 312px;
+        padding: 50px;
+        box-shadow: 0 4px 20px rgba(202, 202, 202, 0.25);
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin: 15px;
+        }
+    }
+
+    aside {
+        margin: 35px auto;
+    }
+}
+
+.threeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.section3 {
+    height: 550px;
+    background-color: #ffffff;
+    @include FlexCenter();
+
+    a {
+        @include textStyle($colorBlue, 0, 15px, 400);
+    }
+
+    h4 {
+        @include textStyle(black, 0, 33px, 500);
+        margin: 25px auto;
+    }
+
+    div:not(.fourDiv) {
+        width: 180px;
+        height: 190px;
+        @include FlexCenter();
+        margin: 40px;
+
+        img:not(.fimg) {
+            margin: 25px;
+        }
+    }
+
+    .fimg {
+        margin: 15px 25px 35px 25px;
+    }
+}
+
+.fourDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h5 {
+        @include textStyle(black, 0, 17px, 400);
+        text-transform: uppercase;
+
+    }
+
+    p {
+        @include textStyle($colorGrey, 0, 13px, 400);
+        text-align: center;
+
+    }
+}
+
+.section4 {
+    height: 560px;
+    background-color: $colorBlue;
+    background-repeat: repeat;
+    padding-top: 60px;
+
+    position: relative;
+
+    text-align: center;
+
+    a {
+        @include textStyle(white, 0, 15px, 400);
+
+    }
+
+    h4 {
+        margin: 25px;
+        @include textStyle(white, 0, 33px, 400);
+    }
+
+    P {
+        @include textStyle(white, 0, 20px, 400);
+        width: 640px;
+        margin: 0 auto;
+    }
+
+    .fon2 {
+        height: 500px;
+        background-image: url(../img/Cloud.png);
+
+    }
+
+    .ballon {
+        bottom: 559px;
+        left: 448px;
+        position: relative;
+    }
+
+    .stars {
+        position: relative;
+        bottom: 620px;
+        left: 370px;
+
+    }
+
+    .scissors {
+        position: relative;
+        bottom: 724px;
+        left: 100px;
+    }
+}
+
+.square {
+    position: relative;
+    width: 946px;
+    height: 486px;
+    box-shadow: 0 4px 30px rgba(202, 202, 202, 0.55);
+    background-color: #ffffff;
+    bottom: 250px;
+    left: 260px;
+    display: block;
+
+    .square60 {
+        height: 100%;
+        padding: 50px 0;
+        width: 555px;
+        float: left;
+
+        @include textStyle($colorGrey, $fontOpen, 14px, 400);
+        @include FlexCenter();
+
+
+
+        .lineDiv {
+            position: relative;
+            bottom: 300px;
+            height: 400px;
+            display: -webkit-inline-box;
+            width: 420px;
+            top: -220px;
+            transform: rotate(90deg);
+            border: 1px solid rgb(184, 184, 184);
+            z-index: 300;
+        }
+
+        .One {
+            border-bottom: 1px solid rgb(184, 184, 184);
+
+            div {
+                height: 150px;
+                margin: 30px 70px;
+                padding: 12px 12px;
+            }
+        }
+
+        .Two {
+
+            div {
+
+                margin: 30px 70px;
+                padding: 12px 12px;
+            }
+        }
+
+        div {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            div {
+                @include FlexCenter();
+
+            }
+
+        }
+
+        h2 {
+            @include textStyle($colorOrange, $fontOpen, 35px, bold);
+
+        }
+
+        a {
+            @include textStyle($colorBlue, $fontOpen, 17px, 600);
+
+        }
+    }
+
+    .square40 {
+        height: 100%;
+        width: 391px;
+        float: right;
+        padding: 20px;
+        background-color: $colorBlue;
+
+        p {
+            @include textStyle(white, $fontOpen, 18px, bold);
+            display: line;
+            margin: 17px;
+            text-align: start;
+        }
+
+        .info {
+            padding: 20px;
+            border: 2px dashed rgb(103, 97, 97);
+            border-radius: 20px;
+
+            h5 {
+                @include textStyle(white, 0, 25px, 400);
+                text-transform: uppercase;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .scissor {
+                border: 2px dashed white;
+                padding: 20px;
+                background-color: $colorDarkBlue;
+                text-transform: uppercase;
+
+                span {
+                    @include textStyle(white, 0, 24px, 400);
+                    text-align: start;
+                    text-transform: lowercase;
+                }
+
+                h2 {
+                    letter-spacing: 2px;
+                    @include textStyle(yellow, fantasy, 62px, bold);
+                    text-align: center;
+                }
+            }
+        }
+
+
+    }
+}
+
+.section5 {
+    position: absolute;
+    margin-top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+
+    img {
+        margin: 0 auto;
+    }
+
+    a {
+        @include textStyle($colorBlue, 0, 15px, 400);
+    }
+
+    h3 {
+        @include textStyle(black, 0, 33px, 400);
+        margin: 20px 0;
+    }
+
+    div {
+        width: 600px;
+        @include FlexCenter();
+
+        img {
+            margin: 30px;
+        }
+
+        p {
+            @include textStyle($colorGrey, 0, 14px, 400);
+            text-align: center;
+        }
+
+        h6 {
+            @include textStyle($colorBlue, 0, 14px, bold);
+
+        }
+
+        span {
+            @include textStyle(#a3a6a9, 0, 13px, bold);
+
+        }
+    }
+}
+
+.my-footer {
+    padding: 25px;
+    width: 100%;
+    margin-top: 730px;
+    position: absolute;
+    height: 605px;
+    background-color: $colorBlue;
+    border: 1px solid #e0ebf2;
+}
+
+.line {
+    height: 1px;
+    margin: 20px 0;
+    border: 1px solid white;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+
+    div:not(.iconCircle2) {
+        width: 210px;
+    }
+
+
+
+    h5 {
+        @include textStyle(white, 0, 16px, bold);
+    }
+
+    p {
+        margin-top: 30px;
+        @include textStyle(white, 0, 13px, 400);
+    }
+}
+
+.footerDiv2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 210px;
+    }
+
+    a {
+        @include textStyle(white, 0, 13px, 400);
+
+    }
+}
+
+.iconCircle2 {
+    margin: 0 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: $colorBlue;
+    background-color: white;
+
+
+    i {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+
+    }
+
+}
