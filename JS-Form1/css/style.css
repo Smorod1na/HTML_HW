@@ -1,0 +1,44 @@
+.main{
+    margin: 0 auto;
+    border-radius: 10px;
+  
+    background-color: grey;
+    width: 50%;
+    padding: 20px;
+}
+.main img{
+    display: block;
+    margin: 0 auto;
+}
+.main input[type="text"],
+.main input[type="password"],
+.main input[type="email"]{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 25px;
+}
+.main input[type="radio"]{
+    margin-bottom: 20px;
+}
+input[type="button"]
+{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(32, 204, 32);
+    padding: 15px 25px;
+}
+.notvalid{
+    border: 2px solid red;
+}
+.info{
+    margin: 30px;
+    display: none;
+    background-color: green;
+    height: 50px;
+    width: 100%;
+}
+.dsp{
+    display: block;
+    float: left;
+}
