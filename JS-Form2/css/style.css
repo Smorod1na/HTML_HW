@@ -1,0 +1,71 @@
+.first-div{
+    width: 400px;
+    background-color: rgb(119, 37, 23);
+    margin: 10px 0;
+    padding: 15px;
+}
+.first-div i{
+padding-right: 20px;
+}
+.first-div a{
+color: white;
+text-transform: uppercase;
+}
+.test i{
+   margin-left: 100px;
+}
+.test{
+
+    float: right;
+}
+
+.down-ul li a{
+    color: white;
+}
+.down-ul li i{
+    padding-right: 20px;
+}
+.down-ul li{
+    width: 400px;
+    background-color: rgb(175, 61, 41);
+    padding: 15px;
+margin: 10px;
+}
+.down-ul{
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+.display-no{
+    display: none;
+}
+.bcColor{
+color: grey;
+}
+.transition{
+    transition: 0.5s;
+}
+.transition:hover{
+    border-left: 10px solid blue;
+}
+.modalDiv1{
+    /* height: 300px; */
+    padding: 20px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url(../img/language-icon.png);
+}
+.modalDiv2{
+    /* height: 300px; */
+    padding: 20px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url(../img/notification.png);
+}
+.modalDiv3{
+    /* height: 300px; */
+    padding: 20px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url(../img/privacy-policy.png);
+}
