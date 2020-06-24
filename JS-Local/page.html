@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="my-header">
+        <a>Hello</a>
+        <div class="ball" href="#" data-toggle="modal" data-target="#exampleModalPopovers"></div>
+    </header>
+
+
+    <div class="modal fade" id="exampleModalPopovers" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalPopoversLabel" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body my-div">
+                    <form>
+                        <div>
+
+                            <label> <i class="fas fa-user"></i></label>
+                            <input type="text" name="Name" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label><i class="fas fa-envelope-square"></i>
+                            </label>
+                            <input type="email" name="Email" placeholder="Your Email">
+                        </div>
+
+                        <div>
+                            <label>
+                                <i class="fas fa-sign-in-alt"></i>
+                            </label>
+                            <input type="text" name="Login" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label>
+                                <i class="fas fa-key"></i>
+                            </label>
+                            <input type="password" name="Password" placeholder="Your Email">
+                       <input type="button" value="Change" data-toggle="modal" data-target="#exampleModalPopovers2">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModalPopovers2" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalPopoversLabel" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body my-div">
+                <form class="my-form">
+                    <div>
+
+                        <label> Old Password</label>
+                        <input type="text" name="OldPass" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label>New Password
+                        </label>
+                        <input type="email" name="NewPass" placeholder="Your Email">
+                    </div>
+
+                    <div>
+                        <label>
+                            Confirm
+                        </label>
+                        <input type="text" name="Confirm" placeholder="Your Name">
+                    </div>
+                    <div>
+                       
+                   <input type="button" value="Acept" onclick="btnClick()">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://kit.fontawesome.com/41174f93d5.js" crossorigin="anonymous"></script>
+
+    <script src="js/script2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

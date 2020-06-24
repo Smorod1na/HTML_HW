@@ -1,0 +1,113 @@
+* {
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.main {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 700px;
+    height: 400xp;
+    background-color: green;
+}
+
+label {
+    margin: 15px;
+    font-family: fantasy;
+    display: block;
+    width:50px;
+    float: left;
+}
+
+input {
+    margin: 15px;
+    /* [type="text"], */
+    background-color: grey;
+}
+
+span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin: 20px;
+}
+
+.none {
+    display: none;
+}
+
+.button {
+    background-color: green;
+    top: 15px;
+    right: 200px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.button2 {
+    /* padding-top: 20px; */
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+
+.button2 a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.button2 i {
+    font-size: 25px;
+    position: absolute;
+    top: 7px;
+    left: 9px;
+    color: brown;
+}
+
+.my-header{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    background-color: aqua;
+}
+.my-header div{
+margin: 0;
+}
+.my-header a {
+    font-family: monospace;
+    margin: 20px;
+    font-size: 26px;
+    color: blue;
+}
+
+.ball {
+    display: flex;
+    color: darkblue;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.my-div form div i {
+    /* font-family: monospace; */
+
+    color: black;
+}
+.my-form label{
+    width:100px;
+}
