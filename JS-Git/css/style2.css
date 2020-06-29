@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+.header{
+    padding: 20px;
+    display: flex;
+}
+.header h5{
+   margin-right: 20px;
+   line-height: 20px;
+}
+input[type="button"]{
+    margin:0 20px;
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+}
+.line{
+    background-color: black;
+    display: flex;
+    border: 1px solid black;
+    margin: 15px;
+}
+.info1{
+   
+
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    margin:25px;
+
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    
+    display: flex;
+justify-content: center;
+}
+.container{
+    background-color: rgb(238, 231, 217);
+    margin:10px 30px;
+    width: 800px;
+    border: 1px solid black;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+.main div{
+    width: 50%;
+}
+a{
+    margin:0 20px;
+}
+.main div div{
+    width: 90%;
+    
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.my-header {
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.body button{ display: inline;text-align: center;}
+
+.spinner {
+    display: block;
+    text-align: center;
+    font-size: 48px;
+}
+
+.none {
+    display: none;
+}
+
