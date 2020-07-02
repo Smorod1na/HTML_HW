@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class="my-div">
+            <div class="info">
+                <p id="coffeText">Get your drink.Don`t forgate for suggar</p>
+            </div>
+            <div class="userInfo">
+                <div>
+                <a class="navbar-brand" href="#">
+                  <img src="img/user.png" width="40" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                  User
+                </a></div>
+                <div>
+                    <h5>Money:</h5>
+                    <p id="userMoney">100</p>
+                </div>
+                <div> 
+                    <button type="button" class="btn btn-primary my-button" onclick="putMoney()">putmoney</button></div>
+             </div>
+            <div class="adminInfo none">
+                <div>
+                <a class="navbar-brand" href="#">
+                  <img src="img/admin.png" width="40" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                  Admin
+                </a></div>
+                <div>
+                    <h5>Money:</h5>
+                    <p id="adminMoney">0</p>
+                </div>
+                <div> 
+                    <button type="button" class="btn btn-primary my-button"  onclick="getMoney()">getmoney</button></div>
+             </div>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col"><Div><a  class="my-icon"><i class="fas fa-coffee"></i><span id="coffeCount">2</span></a> </Div> 
+                  <div>  <button type="button" id="coffe" class="btn btn-success my-button">cofee</button></div>
+                  <div>Price: 8.50</div></div>
+                  <div class="col"><div>
+                    <a class="my-icon"><i class="fas fa-mug-hot"></i><span id="teaCount">2</span></a>
+                </div>
+                    <div> 
+                     <button type="button" id="tea"  class="btn btn-success my-button">tea</button></div>
+                     <div>Price: 5.00</div>  </div>
+                <div class="col"><div>
+                    <a class="my-icon"><i class="fas fa-beer"></i><spn id="bearCount">2</spn>
+                    </a> </div>
+                    <div>
+                    <button type="button" id="bear" class="btn btn-success my-button">bear</button></div>
+                    <div>Price: 15.25</div>
+                </div>
+                <div class="col"><div>
+                    <a class="my-icon"><i class="fas fa-candy-cane"></i><span id="suggarsCount">12</span>
+                </a>
+                     <div class="pages text-center">
+                    <button type="button" id="plus" class="btn btn-info my-button2" onclick="BtnMinusClick()">-</button>
+
+                   <div id="suggars" class="test bg-info text-white"> 2</div>
+                    <button type="button" id="minus" class="btn btn-info my-button2" onclick="BtnPlusClick()">+</button>
+                </div></div>
+              </div>
+        
+        </div>
+        <script src="https://kit.fontawesome.com/e5665d24cf.js" crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>

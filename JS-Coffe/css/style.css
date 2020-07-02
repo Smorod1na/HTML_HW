@@ -1,0 +1,52 @@
+.my-div{
+    height: 200px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.my-button{
+width: 100px;
+}
+.my-button2{
+    width: 40px;
+    border-radius: 0;
+    }
+.pages {
+    margin: auto;
+    width: 120px;
+    height: 38px;
+    border: 1px solid #d8dadb;
+    background-color: #f6f9f9;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+    align-items: center;
+  }
+ .test{
+     width: 40px;
+     line-height: 38px;
+     height: 38px;
+ }
+ .my-icon i{
+margin: 0 10px;
+ }
+ .my-icon{
+    font-weight: bold;
+     }
+    
+.my-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.none{
+    display: none;
+}
+.info{
+    color: rgb(109, 179, 40);
+    font-family: cursive;
+}
+/* .userInfo{
+
+} */
