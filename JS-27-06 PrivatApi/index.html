@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">PrivatBank Terminals</h1>
+    </header>
+    <div class="container">
+        <div class="input-group">
+            <!-- <select class="form-control my-input"></select> -->
+            <input class="form-control my-input" value="Ровно" type="search" onkeyup="filterSearch()">
+            <ul id="autocompleteSearch"></ul>
+            <input type="button" id="searchBtn" class="btn btn-primary" value="Search">
+        </div>
+    </div>
+    <div class="container">
+        <div id="main">
+
+        </div>
+    </div>
+
+    <div class="container" id="map"></div>
+    <!-- TODO
+    input: text - полу для вводу міста
+    кнопка "Пошук" яка завантажує список усіх доступних терміналів у вказаному місті
+    (вивести список доступних терміналів у вигляді таблиці або блоку)б біля кожного місця терміналу буде кнопка показати на карті
+ інфу по терміналам вивести:
+ cutyUa,fullAddressUa,placeUa,latitude and longitude(дані сожна записати в атрибути)
+-->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- <script
+        src="https://maps.googleapis.com/maps/api/place/autocomplete/json?input=Vict&types=(cities)&language=pt_BR&key=AIzaSyDylkmhFJEQp8C7bTxboz06d24liYaQaFc">
+    </script> -->
+    <script src="js/script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDylkmhFJEQp8C7bTxboz06d24liYaQaFc&callback=initMap">
+    </script>
+
+    <!-- async defer - якій перший прогрузиться в фоні той і підтягнеться -->
+
+</body>
+
+</html>
