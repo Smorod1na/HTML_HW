@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+}
+
+.my-container {
+    height: 100px;
+    width: 700px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.search form {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    border-radius: 10px;
+}
+
+.search input {
+    width: 100%;
+    padding-left: 10px;
+    margin: 0;
+    transition: ss border;
+}
+
+.search input,
+.search button {
+    margin: 15px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.search i {
+    color: rgb(191, 235, 103);
+    font-size: 17px;
+}
+
+.container a {
+    margin: 15px;
+    color: rgb(88, 121, 198);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.notFound {
+    padding: 30px;
+    width: 700px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.notFound h2 {
+    margin: 10px;
+    text-align: center;
+    color: coral;
+}
+
+.none {
+    display: none;
+}
+
+.weaterTop {
+    padding: 15px;
+    width: 670px;
+}
+
+.weaterTop header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weaterTop header a {
+    color: rgb(88, 121, 198);
+    margin: 10px;
+}
+
+.weather {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.weather img{
+    width: 150px;
+    height: 150px;
+}
+#tempNow{
+    font-size: 30px;
+}
+.weaterInfo div{
+margin: 20px 0;
+}
+.weatherBottom{
+    padding: 20px;
+}
+#HourWeather img{
+width: 100px;
+height: 100px;
+border: none;
+}
+#HourWeather div{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#HourWeather span{
+    margin: 15px;
+}
+#HourWeather {
+    display: flex;
+    flex-direction: row;
+}
+.test{
+    float: left;
+}
+#map {
+    height: 60vh;
+  }

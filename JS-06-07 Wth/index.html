@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="test">
+        <div class="my-container">
+            <a>Current weather</a>
+            <div class="search">
+                <form>
+                    <input type="search">
+                    <button id="search"><i class="fas fa-search fa-rotate-90"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="notFound none">
+            <h2>404</h2>
+            <h3>Not found</h3>
+            <a>Pleace enter a different city</a>
+        </div>
+        <div class="weaterTop">
+            <header>
+                <a id="cityName">CityName</a>
+                <a id="DateNow">Date</a>
+            </header>
+            <span id="weatherNow"></span>
+            <div class="weather">
+                <img id="iconWeatherNow">
+                <h2 id="tempNow"></h2>
+                <div class="weaterInfo">
+                    <div> <a>Min temperature</a> <span id="min">min</span><br></div>
+                    <div> <a>Max temperature</a> <span id="max">min</span><br></div>
+                    <div><a>Wind speed(km/h)</a> <span id="windSp">min</span><br></div>
+                </div>
+            </div>
+        </div>
+        <div class="weatherBottom">
+            <a>Hourly</a>
+            <div id="HourWeather">
+                <div>
+                    <a id="DayNow"></a>
+                    <img alt="">
+                    <span>Forecast</span>
+                    <span>Temp(`c)</span>
+                    <span>Wind(km/h)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <input type="button" value="SearchOnMap">
+        <div class="container" id="map">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/39c9a805b6.js" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDylkmhFJEQp8C7bTxboz06d24liYaQaFc&callback=initMap">
+    </script>
+</body>
+
+</html>
