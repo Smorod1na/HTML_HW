@@ -1,0 +1,79 @@
+.number{
+    display: flex;
+}
+.number div{
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    background-color: aqua;
+    width: 750px;
+    height: 300px;
+}
+.main input[type="button"]
+{
+    width: 100%;
+}
+.Colorblock{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 750px;
+    height: 300px;
+    background-color: rgb(196, 183, 183);
+}
+.block{
+    display: block;
+    width: 70px;
+    height: 50px;
+    margin: 10px;
+}
+.main2{
+    background-color: cornsilk;
+    width: 700px;
+    height: 400px;
+}
+.color{
+    justify-content: space-around;
+    width: 700px;
+    height: 150px;
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.line {
+    border: 1px solid black;
+    
+}
+.section{
+    padding: 17px;
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    background-color: cornsilk;
+}
+.section a{ 
+font-size: 15px;
+font-weight: bold;
+}
+.postComment a{
+    display: block;
+color: black;
+font-size: 18px;
+}
+.commentName{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.commentName input[type="text"]{
+    margin-left: 25px;
+width: 250px;
+}
+.section input[type="button"]{ 
+    margin: 20px 7px;
+width: 100%;
+}

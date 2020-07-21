@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+}
+.line {
+    border: 1px solid black;
+    width: 450px;
+    margin: 25px 0;
+}
+
+.my-container {
+    padding: 7px;
+    display: flex;
+    margin: 0 auto;
+    width: 950px;
+    height: 550px;
+    background-color: blanchedalmond;
+}
+
+.dishType {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+.dishType div{
+    margin: 0 15px;
+}
+
+.commentName {
+    margin: 20px 0;
+}
+.commentName a{
+    margin:0 30px 0 0;
+}
+.commentName input{
+    width: 200px;
+}
+.difical {
+    margin:20px 0;
+    display: flex;
+    flex-direction: row;
+}
+.rad{
+    margin: 0 15px;
+}
+
+.twodiv {
+    display: block;
+}
+
+.first {
+    float: left;
+    margin-right: 30px;
+}
+
+.first input[type="text"] {
+    width: 90px;
+}
+.first a{
+    display: inline-block;
+    width: 110px;
+margin-right: 40px;
+}
+.first div{
+    margin: 20px 0;
+}
+.second {
+    float: right;
+}
+input[type="button"] {
+    margin: 30px auto;
+    width: 300px;
+    display: block;
+    padding: 10px;
+}
+.borderRed{
+    border:1px solid red;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.desc{
+    width: 450px;
+}
+.ingred{
+    width: 450px;
+}
+.section2,
+.section1{
+    margin: 10px;
+}
+.section2{
+    display: flex;
+    align-items: flex-end;
+}
+.my-container2{
+    display: block;
+    width: 950px;
+    margin: 0 auto;
+    padding: 13px;
+}
+.my-container2 img{
+    height:400px;
+   width: auto;
+  float: left;
+  margin: 10px;
+}
+.IconDiv i{
+    margin: 7px;
+    color: rgb(50, 127, 194);
+    font-size:35px;
+}
+.my-div{
+display: flex;
+justify-content: space-between;
+}

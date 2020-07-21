@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="my-container">
+        <div class="section1">
+            <form>
+                <h3>Share a Recip</h3>
+                <a>Share recip whith us</a>
+                <div class="line"></div>
+                <div class="commentName">
+                    <a>Recipe Name</a>
+                    <input type="text" class="name">
+                </div>
+                <div class="description">
+                    <a>Description</a>
+                    <textarea cols="40" class="desc" rows="5"></textarea>
+                </div>
+
+                <div class="first">
+                    <div>
+                        <a>No, of Servings</a>
+                        <input type="text" class="serv" placeholder="ex:4">
+                    </div>
+                    <div>
+                        <a>Preparation Time</a>
+                        <input type="text" class="serv1" placeholder="ex:20m">
+                    </div>
+                    <div>
+                        <a>Coocking Time</a>
+                        <input type="text" class="serv2" placeholder="ex:2m">
+                    </div>
+                </div>
+
+                <div class="difical">
+                    <a>Difficult</a>
+                    <div class="rad">
+                        <div>
+                            <input type="radio" id="easy" value="easy" name="dif" />
+                            <label for="easy">Easy</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="moderate" value="moderate" name="dif" />
+                            <label for="moderate">Moderate</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="hide" value="hide" name="dif" />
+                            <label for="hide">Hide</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="dishType">
+                    <a>Dish Type</a>
+                    <div>
+                        <select class="dishT">
+                            <option selected value="Chouse"></option>
+                            <option value="Breakfast">Breakfast</option>
+                            <option value="Lanch">Lanch</option>
+                            <option value="Dinner">Dessert</option>
+                        </select>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="section2">
+            <div class="second">
+                <h4>Ingredients</h4>
+                <textarea cols="50" class="ingred" rows="7"></textarea>
+                <input type="button" value="Save">
+            </div>
+
+        </div>
+    </div>
+    <div class="my-container2 bg-light">
+        <img id="recipImg" src="img/lanch.jfif">
+        <h1 id="name">Recip Name</h1>
+        <h3 id="dish">Disp type</h3>
+        <div class="my-div">
+            <div class="IconDiv">
+                <i class="fas fa-user"></i>
+                <p id="peop"></p>
+            </div>
+            <div class="IconDiv">
+                <i class="fas fa-stopwatch"></i>
+                <p id="peop1"></p>
+            </div>
+            <div class="IconDiv">
+                <i class="fas fa-level-up-alt"></i>
+                <p id="peop2"></p>
+            </div>
+            <div class="IconDiv">
+                <i class="fas fa-fire"></i>
+                <p id="peop3"></p>
+            </div>
+        </div>
+        <div id="descrp"></div>
+        <div id="ingrid"></div>
+    </div>
+    <script src="https://kit.fontawesome.com/e5665d24cf.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="js/script5.js"></script>
+
+</body>
+
+</html>
